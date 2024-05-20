@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-image: url(../imagens/ricardo-gomez-angel-pbMu5q0hYbg-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    height: 765vh;
+    font-family: tahoma;
+    background-color: #faa06f;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    h1,h2,h3,p{
+        text-align: center;
+        padding: 25px;
+        margin-bottom: 5px;
+    }
+    li{
+        text-align: center;
+        font-family: tahoma;
+        padding: 7px;
+    }
+    .img{
+    position: relative;
+    color: black;
+    }
+    .center{
+        position: absolute;
+        left: 10px;
+        right: 10px;
+    }
+header{
+    width: 100%;
+    padding: 12px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background-color:#ffae81;
+}
+header i{
+    font-size: 30px;
+    color: #ffae81;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header ul li a:hover{
+   color: #fff;
+   background-color: #41271a; 
+
+   border-radius: 12px;
+   transition: 0.8s;
+}
+header ul li a.active{
+    color: #ac7777;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px 50px;
+ }
+ @media only screen and (max-width:1320px){}
+ header ul li a.active{
+    color: #ac7777;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0 30px;
+ }
+ @media only screen and (max-width:1000px){}
+  
+.banner{
+    display: block;
+    height: 200vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: #ea986b;
+}
+.banner h1{
+font-family:tahoma;
+font-size: 3em;
+color: #fff;
+padding-bottom: 1000px;
+
+}
+.tittle{
+    color: #fff;
+}
+.banner h1 span{
+    color: #ffae81;
+    margin-top: 100px;
+}
+.conta button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #fff;
+    color: #ffae81;
+    cursor: pointer;
+    transition: .2s;
+}
+.banner2{
+right: auto;
+}
+h1{
+    color: #fff;
+}
+p{
+    font-family: tahoma;
+    color: #fff;
+}
+li{
+    color: #fff;
+    font-family: tahoma;
+    size: 4px; 
+}
+h3{
+    color: #fff;
+    font-family: tahoma;
+    size: 4px; 
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+        background-color: #ffb892;
+        border: none;
+        padding: 6px;
+        font-family: bold;
+        border-radius: 12px;
+        cursor: pointer;
+        display: flex;
+}
+.deck-container{
+    width: 100%;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 75px;
+    text-align: center;
+}
+.deck-container .card{
+    width: 350px;
+    height: 200px;
+    margin: 53px;
+}
+
+.deck-container .card img.produto{
+    max-width: 350px;
+}
+.deck-container .card button{
+    padding: 10px 40px;
+    display: block;
+margin-right: auto;
+margin-left: auto;
+    font-size: 15px;
+}
+h2{
+    color: #fff;
+}
+.deck-container .card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: .3s;
+}
